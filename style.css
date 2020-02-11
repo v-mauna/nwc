@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
+#nav {
+    list-style-type: none;
+    width: 100vw !important;
+    padding: 0;
+    background-color: #4F4D53;
+    height: 48px;
+    text-indent: 20%;
+      color: white;
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+  }
+
+#intro{
+    background-image: url('./media/img_hero.jpg');
+    width: 100vw;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #4F4D53;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25vh;
+    margin-top: -1vh;
+}
+
+#how-it-started{
+    margin-left: 20vw;
+    margin-bottom : 20vh;
+}
+#how-it-started h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    color: #e8be02;
+    font-size: 64px;
+}
+#how-it-started p{
+    margin-right: 20vw;
+    font-size: 20px;
+    color: #4f4d53;
+}
+
+#yellowBand{
+    width: 100vw;
+    background-color: #e8be02;
+    border: solid #e8be02;
+    height: 12px;
+}
+
+#footer{
+   height: 320px;
+   background-color: #4F4D53;
+   align-content: center;
+   justify-items: center;
+   display: flex;
+   position: relative;
+}
+
+.team{
+    position: absolute;
+    margin-left: 20%;
+   
+}
+
+.learnMore{
+    position: absolute;
+    margin-left: 40%;
+
+}
+
+.meetUs{
+    position: absolute;
+    margin-left: 80%;
+}
+
+.contact{
+    position: absolute;
+    margin-left: 60%;
+
+}
+#footer h3{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 20px; 
+    color: #e8be02;
+    margin-bottom: 6vh;
+
+}
+
+#footer h4{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 14px; 
+    color: white;
+    margin-top: -2vh;
+}
+
